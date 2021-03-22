@@ -1,7 +1,7 @@
 import smtplib
 server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
 #server = smtplib.SMTP()
-server.login("mylanhackathon12345@gmail.com", "vybhav123")
+server.login("mylanhackathon12345@gmail.com", "vybhav")
 
 #Send the mail
 msg = "Hello!" # The /n separates the message from the headers
